@@ -1,0 +1,25 @@
+/* .search-container button { */
+    /* float: right; */
+    /* padding: 6px 10px; */
+    /* margin-top: 8px; */
+    /* margin-right: 16px; */
+    /* background: #ddd; */
+    /* font-size: 17px; */
+    /* border: none; */
+    /* cursor: pointer; */
+  /* } */
+  .container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap: 10px; */
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+  }
+  .box{
+    padding: 10px;
+    margin-top: 30px;
+    height: 40vh;
+    width: 30vw;
+    background-color: aquamarine;
+  }
